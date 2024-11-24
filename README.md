@@ -208,3 +208,11 @@ rbt.printTree();
 - Ensures logarithmic height, making operations efficient.
 - Self-balancing without requiring a complete rebalancing for every operation.
 - Well-suited for dynamic data structures with frequent insertions and deletions.
+
+## Disadvantages of Red-Black Trees
+- **Complex implementation:** More difficult to implement than simpler trees.
+- **Higher constant overhead:** Slower than AVL trees due to extra balancing operations.
+- **Less strict balance:** Can be less balanced than AVL trees.
+- **Inefficient for range queries:** Not ideal for range-based operations.
+- **More memory usage:** Extra space needed for the color attribute.
+- **Hard to visualize:** Debugging and understanding balancing can be challenging
