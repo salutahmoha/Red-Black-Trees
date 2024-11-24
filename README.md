@@ -19,6 +19,11 @@ These properties ensure that the longest path from the root to a leaf is at most
    - **Recoloring:** Adjust the colors of nodes.
    - **Rotations:** Perform left or right rotations to restructure the tree.
 
+##Applications of Red-Black Trees
+- **Databases:** Efficient indexing and searching.
+- **Compilers:** Syntax trees for efficient language parsing.
+- **Operating Systems:** Process scheduling and memory management.
+- **Network Routers:** Efficient lookup in routing tables.
 ###Deletion
 - Delete the node as in a Binary Search Tree.
 - If the deleted node is black, fix violations using:
