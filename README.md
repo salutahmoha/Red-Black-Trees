@@ -11,30 +11,30 @@ Red-Black Trees follow these key properties:
 
 These properties ensure that the longest path from the root to a leaf is at most twice the shortest path, maintaining a balanced tree.
 
-##How Red-Black Trees Work
-###Insertion
+## How Red-Black Trees Work
+### Insertion
 - Insert a new node as in a Binary Search Tree.
 - Color the new node red.
 - Fix violations of the Red-Black Tree properties by:
    - **Recoloring:** Adjust the colors of nodes.
    - **Rotations:** Perform left or right rotations to restructure the tree.
 
-###Deletion
+### Deletion
 - Delete the node as in a Binary Search Tree.
 - If the deleted node is black, fix violations using:
    - **Recoloring:** Adjust the colors to maintain the black-height property.
    - **Rotations:** Restructure the tree if necessary.
 
-###Balancing
+### Balancing
 Red-Black Trees balance themselves through recoloring and rotations, ensuring that the tree height is always O(log n).
 
-##Applications of Red-Black Trees
+## Applications of Red-Black Trees
 - **Databases:** Efficient indexing and searching.
 - **Compilers:** Syntax trees for efficient language parsing.
 - **Operating Systems:** Process scheduling and memory management.
 - **Network Routers:** Efficient lookup in routing tables.
 
-##Advantages of Red-Black Trees
+## Advantages of Red-Black Trees
 - Ensures logarithmic height, making operations efficient.
 - Self-balancing without requiring a complete rebalancing for every operation.
 - Well-suited for dynamic data structures with frequent insertions and deletions.
