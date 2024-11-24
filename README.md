@@ -10,3 +10,21 @@ Red-Black Trees follow these key properties:
 - **Leaf Nodes**: Null pointers (leaves) are considered black.
 
 These properties ensure that the longest path from the root to a leaf is at most twice the shortest path, maintaining a balanced tree.
+
+##How Red-Black Trees Work
+###Insertion
+- Insert a new node as in a Binary Search Tree.
+- Color the new node red.
+- Fix violations of the Red-Black Tree properties by:
+   - **Recoloring:** Adjust the colors of nodes.
+   - **Rotations:** Perform left or right rotations to restructure the tree.
+
+###Deletion
+- Delete the node as in a Binary Search Tree.
+- If the deleted node is black, fix violations using:
+   - **Recoloring:** Adjust the colors to maintain the black-height property.
+   - **Rotations:** Restructure the tree if necessary.
+
+###Balancing
+Red-Black Trees balance themselves through recoloring and rotations, ensuring that the tree height is always O(log n).
+
